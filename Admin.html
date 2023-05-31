@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Page</title>
+   
+    
+</head>
+  <body>
+    
+    <h1>Book Managment System</h1>
+    <form action="AddBooks" method="post">
+
+       
+      <label for="bid">BookId :</label>
+      <input type="number" name ="bid" id="bid" required>
+      <br>  <br>
+          
+      <label for="title">BookTitle :</label>
+      <input type="text" name ="title" id="title" required>
+      <br>  <br>
+
+      <label for="author">Author  :</label>
+      <input type="text" name ="author" id="author" required>
+      <br>  <br>
+
+      <label for="ISSN"> ISSN  :</label>
+      <input type="text" name ="ISSN" id="ISSN" required>
+
+      <br>  <br>
+
+      <input type="submit" value="Add Book" name="Add">
+
+      <br>  <br>
+      </form>
+
+
+
+    <br><br><br><br>
+      <form action="DeleteBooks" method="post">
+
+       
+        <label for="bid">BookId :</label>
+        <input type="number" name ="bid" id="bid" required>
+        <br>  <br>
+            
+         
+        <input type="submit" value="Delete Book" name=" Update">
+  
+        <br>  <br>
+        </form>
+
+    
+
+
+   
+   
+  </body>
+</html>
